@@ -99,9 +99,15 @@
                                 Blog Posts
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
-                                <a class="dropdown-item" href="standard-fullwidth.html">Standard Fullwidth</a>
-                                <a class="dropdown-item" href="standard-left-sidebar.html">Standard Left Sidebar</a>
-                                <a class="dropdown-item" href="standard-right-sidebar.html">Standard Right Sidebar</a>
+                                <a class="dropdown-item"
+                                    href="{{ route('blog-posts', ['type' => 'standard-fullwidth']) }}">Standard
+                                    Fullwidth</a>
+                                <a class="dropdown-item"
+                                    href="{{ route('blog-posts', ['type' => 'standard-left-sidebar']) }}">Standard Left
+                                    Sidebar</a>
+                                <a class="dropdown-item"
+                                    href="{{ route('blog-posts', ['type' => 'standard-right-sidebar']) }}">Standard
+                                    Right Sidebar</a>
                             </div>
                         </li>
 

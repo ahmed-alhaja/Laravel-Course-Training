@@ -12,7 +12,7 @@ class HomeController extends Controller
             2 => 'home.index-2',
             3 => 'home.index-3',
             4 => 'home.index-4',
-            5 => 'home.index-5',
+            5 => 'home.index-5', 
             6 => 'home.index-6',
         ];
 
