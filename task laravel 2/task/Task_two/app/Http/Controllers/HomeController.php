@@ -16,7 +16,7 @@ class HomeController extends Controller
             6 => 'home.index-6',
         ];
 
-        abort_unless(isset($views[$type]), 404);
+    
 
         return view($views[$type]);
     }
